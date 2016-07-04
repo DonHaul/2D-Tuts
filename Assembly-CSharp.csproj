@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7579A0C1-07DF-828A-3963-9B94D2A34ECB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_3;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\10 - 12 Door &amp; Switch\DoorScript.cs" />
+     <Compile Include="Assets\10 - 12 Door &amp; Switch\DoorTrigger.cs" />
+     <Compile Include="Assets\10 - 12 Door &amp; Switch\SwitchScript.cs" />
+     <Compile Include="Assets\13 - Projectile Shooter\shooter.cs" />
+     <Compile Include="Assets\14 - Distance Meter\meter.cs" />
+     <Compile Include="Assets\16,17 - Enemy\SimpleEnemyScripy.cs" />
+     <Compile Include="Assets\18 - Trap\trapscript.cs" />
+     <Compile Include="Assets\2 Tags 1 GameObject\tags.cs" />
+     <Compile Include="Assets\2 Tags 1 GameObject\tagsDetector.cs" />
+     <Compile Include="Assets\20-24,26 Player Double Jump, Run, Blink\playerv2script.cs" />
+     <Compile Include="Assets\25 - Tooltip\Tooltip.cs" />
+     <Compile Include="Assets\28-30 Highscore, Change Level\EndLevelScript.cs" />
+     <Compile Include="Assets\28-30 Highscore, Change Level\LvlManager.cs" />
+     <Compile Include="Assets\29,30 - Score System\Collectables2.cs" />
+     <Compile Include="Assets\31,32 - Moving Platform\platformEmitter.cs" />
+     <Compile Include="Assets\33 - Go Throught Platform\platform_gothrought.cs" />
+     <Compile Include="Assets\34 - Trampoline\trampolinescript.cs" />
+     <Compile Include="Assets\36,37 - Lives\flowerlifescript.cs" />
+     <Compile Include="Assets\38 - Fall Damage\FallDmg.cs" />
+     <Compile Include="Assets\39-41 - Evolution. Shooting\Evolution.cs" />
+     <Compile Include="Assets\39-41 - Evolution. Shooting\furrBall.cs" />
+     <Compile Include="Assets\43,46-48 - Blink\blink2.cs" />
+     <Compile Include="Assets\44-45.5 - Checkpoints\checkpoint.cs" />
+     <Compile Include="Assets\44-45.5 - Checkpoints\checkpointHandler.cs" />
+     <Compile Include="Assets\49 - BreakableObject\breakableobject.cs" />
+     <Compile Include="Assets\50 - Grab &amp; Throw\grabberscript.cs" />
+     <Compile Include="Assets\51,52 - GrapplingHook\grapplinghook.cs" />
+     <Compile Include="Assets\51,52 - GrapplingHook\roperatio.cs" />
+     <Compile Include="Assets\53 - Evil Face\follow.cs" />
+     <Compile Include="Assets\54 - Duck\duckmove.cs" />
+     <Compile Include="Assets\55 - Zombie\zombiepatrol.cs" />
+     <Compile Include="Assets\56,57 - Boss\bossscript.cs" />
+     <Compile Include="Assets\58,62 - Wall Jump\WallJump.cs" />
+     <Compile Include="Assets\59,60 - Weapons\WeaponManager.cs" />
+     <Compile Include="Assets\59,60 - Weapons\WeaponPickup.cs" />
+     <Compile Include="Assets\59,60 - Weapons\weapon.cs" />
+     <Compile Include="Assets\61 - Outside Forces\turnOutsideForce.cs" />
+     <Compile Include="Assets\64 - Ladder\ladder.cs" />
+     <Compile Include="Assets\64 -WallSlide\wallSlide.cs" />
+     <Compile Include="Assets\67 - Mario fireball\fireball.cs" />
+     <Compile Include="Assets\67 - Mario fireball\shootSomething.cs" />
+     <Compile Include="Assets\69\NodeTest.cs" />
+     <Compile Include="Assets\69\TEST_nodeManager.cs" />
+     <Compile Include="Assets\7,8 - Collectable\Collectables.cs" />
+     <Compile Include="Assets\7,8 - Collectable\Sprits.cs" />
+     <Compile Include="Assets\Ori Bash\bashable.cs" />
+     <Compile Include="Assets\Ori Bash\oriYbash.cs" />
+     <Compile Include="Assets\Player &amp; General\Destroy.cs" />
+     <Compile Include="Assets\Player &amp; General\DestroyByTime.cs" />
+     <Compile Include="Assets\Player &amp; General\SimplePlayer0.cs" />
+     <Compile Include="Assets\Player &amp; General\SimplePlayer1.cs" />
+     <Compile Include="Assets\Player &amp; General\playercontroller.cs" />
+     <Compile Include="Assets\Sign_tag.cs" />
+     <None Include="Assets\Player &amp; General\DefaultColorFlash.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

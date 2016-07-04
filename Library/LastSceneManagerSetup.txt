@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/2 Tags 1 GameObject/2 tags 1 gameobject.unity
+  isLoaded: 1
+  isActive: 1
