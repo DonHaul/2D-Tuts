@@ -14,7 +14,12 @@ public class SimplePlayer0 : MonoBehaviour {
 
 	public bool outsideForce;
 
-	
+	//FOR QUICKSAND
+		public float slow=1;
+
+
+
+
 	public Animator anim;
 		public Rigidbody2D rb;
 	
@@ -91,12 +96,12 @@ public class SimplePlayer0 : MonoBehaviour {
 
 						if (Input.GetAxisRaw ("Horizontal") != 0) {
 								anim.SetBool ("Moving", true);
-								rb.velocity = new Vector2 (Input.GetAxisRaw("Horizontal")*speed + BaseSpeed, rb.velocity.y);
+								rb.velocity = slow* new Vector2 (Input.GetAxisRaw("Horizontal")*speed + BaseSpeed, rb.velocity.y);
 								transform.localScale = new Vector3 (Input.GetAxisRaw("Horizontal")*1, 1, 1);
 						}
 						 else {
 								anim.SetBool ("Moving", false);
-								rb.velocity = new Vector2 (BaseSpeed, rb.velocity.y);
+								rb.velocity =slow*  new Vector2 (BaseSpeed, rb.velocity.y);
 						}
 				}
 				//JUMPCODE
