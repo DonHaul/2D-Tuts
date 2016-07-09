@@ -1,7 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Player &amp; General\SimplePlayer0.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\65, 66- Shoot Mario's Fireball\fireball.cs">
     <Files>
+      <File FileName="Assets\65, 66- Shoot Mario's Fireball\fireball.cs" Line="1" Column="1" />
       <File FileName="Assets\Player &amp; General\SimplePlayer0.cs" Line="104" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
