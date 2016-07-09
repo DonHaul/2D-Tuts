@@ -21,7 +21,7 @@ public class quicksandTEST : MonoBehaviour {
 		{
 				slow = true;
 
-				col.GetComponent<SimplePlayer0> ().slow = 0.1f;
+				col.GetComponent<slowTEST> ().slow = 0.1f;
 
 
 
@@ -29,7 +29,7 @@ public class quicksandTEST : MonoBehaviour {
 		}
 		void OnTriggerExit2D(Collider2D col)
 		{
-				col.GetComponent<SimplePlayer0> ().slow = 1f;
+				col.GetComponent<slowTEST> ().slow = 1f;
 				slow = false;
 		}
 }
