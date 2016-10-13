@@ -29,6 +29,10 @@ public class grapplinghook : MonoBehaviour {
 			
 			joint.enabled=false;
 			
+			//this will make rope disappear when joint is deactivated
+			line.enable=false;
+			
+			
 		}
 		
 		
@@ -62,6 +66,10 @@ public class grapplinghook : MonoBehaviour {
 				
 			}
 		}
+		
+		//THIS WILL UPDATE THE LINE RENDERERS IF THE CONNECTEDBODY IS MOVING
+		line.SetPosition(1,joint.connectedBody.transform.TransformPoint( joint.connectedAnchor));
+		
 		if (Input.GetKey (KeyCode.E)) {
 
 			line.SetPosition(0,transform.position);
