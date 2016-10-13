@@ -30,7 +30,7 @@ public class grapplinghook : MonoBehaviour {
 			joint.enabled=false;
 			
 			//this will make rope disappear when joint is deactivated
-			line.enable=false;
+			line.enabled=false;
 			
 			
 		}
