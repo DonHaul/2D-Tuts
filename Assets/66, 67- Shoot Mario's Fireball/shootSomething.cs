@@ -24,9 +24,11 @@ public class shootSomething : MonoBehaviour {
 
 						go.GetComponent<Rigidbody2D> ().velocity = new Vector2 (velocity.x * transform.localScale.x, velocity.y);
 
-
+						
 						GetComponent<Animator> ().SetTrigger ("shoot");
 
+					
+						StartCoroutine (CanShoot()); //ADDED RECENTLY bug found by EndUser & orlando 
 				}
 
 
