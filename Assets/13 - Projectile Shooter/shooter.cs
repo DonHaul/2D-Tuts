@@ -7,6 +7,8 @@ public class shooter : MonoBehaviour {
 	public float speedFactor;
 	public float delay;
 
+		public	Vector3 rotation;
+
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (Shoots ());
@@ -25,7 +27,7 @@ public class shooter : MonoBehaviour {
 
 			yield return new WaitForSeconds(delay);
 
-			GameObject clone = (GameObject)Instantiate(projectile, transform.position,Quaternion.identity);
+						GameObject clone = (GameObject)Instantiate(projectile, transform.position,Quaternion.Euler(rotation));
 
 			clone.GetComponent<Rigidbody2D>().velocity= -transform.right * speedFactor;
 

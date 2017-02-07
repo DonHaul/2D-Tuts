@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 
 public class NodeTest : MonoBehaviour {
+
+
+
 		public Scene scene;
 		public TEST_nodeManager nodeMan;
 		public NodeTest[] neiborghs = new NodeTest[4];

@@ -26,7 +26,7 @@ public class grapplinghook : MonoBehaviour {
 		if (joint.distance > .5f)
 			joint.distance -= step;
 		else {
-			
+			line.enabled = false;
 			joint.enabled=false;
 			
 		}
@@ -62,6 +62,8 @@ public class grapplinghook : MonoBehaviour {
 				
 			}
 		}
+				line.SetPosition(1,joint.connectedBody.transform.TransformPoint( joint.connectedAnchor));
+
 		if (Input.GetKey (KeyCode.E)) {
 
 			line.SetPosition(0,transform.position);

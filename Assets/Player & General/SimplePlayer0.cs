@@ -14,6 +14,9 @@ public class SimplePlayer0 : MonoBehaviour {
 
 	public bool outsideForce;
 
+
+		public bool hanging=false;
+	
 	//FOR QUICKSAND
 
 
@@ -52,6 +55,7 @@ public class SimplePlayer0 : MonoBehaviour {
 	void Start () {
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody2D> ();
+				anim.SetBool ("Grounded", true);
 	}
 	
 		IEnumerator ImmuneTime()
@@ -92,7 +96,7 @@ public class SimplePlayer0 : MonoBehaviour {
 				//MOVING CODE
 		
 				anim.SetFloat ("velocityY",rb.velocity.y);
-				if (!outsideForce) {
+				if (!outsideForce && hanging==false) {
 
 						if (Input.GetAxisRaw ("Horizontal") != 0) {
 								anim.SetBool ("Moving", true);
@@ -112,7 +116,13 @@ public class SimplePlayer0 : MonoBehaviour {
 
 				anim.SetBool ("Grounded", grounded);
 
-				if (grounded && Input.GetButtonDown("Jump") ){
+				if ((grounded ||hanging) && Input.GetButtonDown("Jump") ){
+
+
+						hanging = false;
+
+
+						GetComponent<Rigidbody2D> ().isKinematic = false;
 						timer = 0;
 						canJump = true;
 						rb.AddForce (new Vector2 (0, jumpForce * 3));
