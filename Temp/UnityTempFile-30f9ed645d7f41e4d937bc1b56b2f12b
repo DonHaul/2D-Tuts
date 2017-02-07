@@ -1,0 +1,151 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+"Assets/10 - 12 Door & Switch/DoorScript.cs"
+"Assets/10 - 12 Door & Switch/DoorTrigger.cs"
+"Assets/10 - 12 Door & Switch/SwitchScript.cs"
+"Assets/13 - Projectile Shooter/shooter.cs"
+"Assets/14 - Distance Meter/meter.cs"
+"Assets/16,17 - Enemy/SimpleEnemyScripy.cs"
+"Assets/18 - Trap/trapscript.cs"
+"Assets/2 Tags 1 GameObject/tags.cs"
+"Assets/2 Tags 1 GameObject/tagsDetector.cs"
+"Assets/20-24,26 Player Double Jump, Run, Blink/playerv2script.cs"
+"Assets/25 - Tooltip/Tooltip.cs"
+"Assets/28-30 Highscore, Change Level/EndLevelScript.cs"
+"Assets/28-30 Highscore, Change Level/LvlManager.cs"
+"Assets/29,30 - Score System/Collectables2.cs"
+"Assets/31,32 - Moving Platform/platformEmitter.cs"
+"Assets/33 - Go Throught Platform/platform_gothrought.cs"
+"Assets/34 - Trampoline/trampolinescript.cs"
+"Assets/36,37 - Lives/flowerlifescript.cs"
+"Assets/38 - Fall Damage/FallDmg.cs"
+"Assets/39-41 - Evolution. Shooting/Evolution.cs"
+"Assets/39-41 - Evolution. Shooting/furrBall.cs"
+"Assets/43,46-48 - Blink/blink2.cs"
+"Assets/44-45.5 - Checkpoints/checkpoint.cs"
+"Assets/44-45.5 - Checkpoints/checkpointHandler.cs"
+"Assets/49 - BreakableObject/breakableobject.cs"
+"Assets/50 - Grab & Throw/grabberscript.cs"
+"Assets/51,52 - GrapplingHook/grapplinghook.cs"
+"Assets/51,52 - GrapplingHook/roperatio.cs"
+"Assets/53 - Evil Face/follow.cs"
+"Assets/54 - Duck/duckmove.cs"
+"Assets/55 - Zombie/zombiepatrol.cs"
+"Assets/56,57 - Boss/bossscript.cs"
+"Assets/58,62 - Wall Jump/WallJump.cs"
+"Assets/59,60 - Weapons/WeaponManager.cs"
+"Assets/59,60 - Weapons/WeaponPickup.cs"
+"Assets/59,60 - Weapons/weapon.cs"
+"Assets/61 - Outside Forces/turnOutsideForce.cs"
+"Assets/64 - Ladder/ladder.cs"
+"Assets/65 -WallSlide/wallSlide.cs"
+"Assets/66, 67- Shoot Mario's Fireball/fireball.cs"
+"Assets/66, 67- Shoot Mario's Fireball/shootSomething.cs"
+"Assets/68 - Homing Missile/homingMissile.cs"
+"Assets/69 - Pulland Pushblock/boxpull.cs"
+"Assets/69 - Pulland Pushblock/playerpush.cs"
+Assets/69/NodeTest.cs
+Assets/69/TEST_nodeManager.cs
+"Assets/7,8 - Collectable/Collectables.cs"
+"Assets/7,8 - Collectable/Sprits.cs"
+"Assets/70 - Climb Ledge/playerpush.cs"
+"Assets/Ori Bash/bashable.cs"
+"Assets/Ori Bash/oriYbash.cs"
+"Assets/Player & General/Destroy.cs"
+"Assets/Player & General/DestroyByTime.cs"
+"Assets/Player & General/SimplePlayer0.cs"
+"Assets/Player & General/SimplePlayer1.cs"
+"Assets/Player & General/playercontroller.cs"
+Assets/Sign_tag.cs
+Assets/animationhandler.cs
+Assets/climbledges.cs
+Assets/onebut2attacks.cs
+Assets/pullorpush.cs
+Assets/pushable.cs
+Assets/quicksandTEST.cs
+Assets/slowTEST.cs
+Assets/walkonwalls.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
