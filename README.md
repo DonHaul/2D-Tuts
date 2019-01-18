@@ -1,4 +1,4 @@
-# 2D-Tuts Wabble 
+# 2D Platformer Unity Tutorials Repo 
 
 Channel:
 https://www.youtube.com/channel/UCuXkaW-PS6zmJ5zO4FbiiXQ
